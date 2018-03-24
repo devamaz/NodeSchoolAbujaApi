@@ -103,7 +103,6 @@ exports.updateProduct = (req, res) => {
    for (const option of Object.keys(options)) {
      updates[option] = options[option]
    }
-
    
   Product.findByIdAndUpdate(
     req.params.productId,

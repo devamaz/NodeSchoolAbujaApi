@@ -22,3 +22,4 @@ router.delete("/products/:productId",   productController.deleteProduct);
 
 
 module.exports = router;
+
